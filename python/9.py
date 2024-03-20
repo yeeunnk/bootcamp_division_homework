@@ -5,7 +5,15 @@
 
 def main():
     # 이곳에 코드를 작성해주세요!
-
+    n=int(input())
+    
+    while n<=0:
+        print('X')
+        n= int(input())
+    s=0    
+    for i in range(1,n+1):
+        s=s+i
+    print(s)   
     return
 
 

@@ -4,8 +4,15 @@
 """
 
 def main():
-    # 이곳에 코드를 작성해주세요!
-
+    
+    time = int(input())
+    if time<12:
+        print('AM')
+    elif time>=12 and time<=23:
+        print('PM')
+    else:
+        print('입력범위는 0시부터 23시까지 입니다.')
+   
     return
 
 
