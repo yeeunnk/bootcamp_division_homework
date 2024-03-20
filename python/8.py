@@ -12,8 +12,8 @@ def main():
         for i in range(1,n+1):
             sum=sum+i
             mul=mul*i
-        print('1에서 n까지의 정수의 합: ',sum)
-        print('n!= ',mul)
+        print(sum)
+        print(mul)
     else:
         print('n<=12이 되도록 입력하세요') 
         return
